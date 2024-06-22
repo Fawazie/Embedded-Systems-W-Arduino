@@ -1,13 +1,12 @@
 # Embedded Systems Project With Arduino
 This project allowed me to get hands-on experience with coding for Arduino while also allowing me to implement Serial Communication, CANBUS communication, & debugging and grow my C coding expertise.
-. 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
 
-![alt tag](http://placecorgi.com/1200/650)
+![IMG_1423](https://github.com/Fawazie/Embedded-Systems-W-Arduino/assets/78445573/f1e8d3f3-aa83-4472-8df7-345adb01170e)
+
 
 ## How It's Made:
 
-**Tech used:** C, Processing, CANSniff, CANape, Vector CAN Interface
+**Tech used:** C, Processing, CANSniff, CANape
 
 Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
 
