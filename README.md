@@ -13,25 +13,22 @@ In this project, I developed an Arduino-based motor control system that uses CAN
 
 **Tech used:** C, Processing, CANSniff, CANape
 
-The project involves developing an embedded system to control and monitor a motor using Serial Communication then through the use of CAN bus Communication is able to relay the motor controls to another identical motor system. The system reads speed and direction data from the GUI(Graphic User Interface) and adjusts the motor's operation accordingly. The code utilizes the MCP_CAN library to interface with the CAN bus, processing incoming messages to control the second motor's speed and direction. Additionally, the system includes functionality to monitor motor parameters such as RPM and voltage, and it can send this data back over the CAN bus for real-time monitoring and control.
+The project involves developing an embedded system to control and monitor a motor using Serial Communication. Then, through the use of CAN bus, Communication is able to relay the motor controls to another identical motor system. The system reads speed and direction data from the GUI(Graphic User Interface) and adjusts the motor's operation accordingly. The code utilizes the MCP_CAN library to interface with the CAN bus, processing incoming messages to control the second motor's speed and direction. Additionally, the system includes functionality to monitor motor parameters such as RPM and voltage, and it can send this data back over the CAN bus for real-time monitoring and control.
 
 ## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
-
-## Lessons Learned:
-
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
 
 
+To optimize the system, various enhancements were made, particularly involving how the CAN and Serial Messages were packaged and parsed. One improvement was reducing the size of the CAN message, which allowed for minimizing the bus load and improved communication speed. Another improvement was the parsing of the Serial messages coming from the GUI. Creating a parsing method that deconstructed the incoming byte of the message into multiple bits allowed for an overall reduction in latency and allowed the Arduino to process the incoming message much faster. 
 
+
+## Additional Images:
+
+![Canape](https://github.com/Fawazie/Embedded-Systems-W-Arduino/assets/78445573/24fa2525-c824-4ffc-81bb-3674c50b900e)
+
+![Cansniff 1](https://github.com/Fawazie/Embedded-Systems-W-Arduino/assets/78445573/8788176e-f375-4f55-a31c-281402476f59)
+
+![IMG_1393](https://github.com/Fawazie/Embedded-Systems-W-Arduino/assets/78445573/16676e60-12ed-4d29-8429-580d0e36148e)
+
+![IMG_1398](https://github.com/Fawazie/Embedded-Systems-W-Arduino/assets/78445573/60fa247b-7c80-46aa-9d0c-6867a75f407a)
+
+![Uploading IMG_1404.jpeg…]()
