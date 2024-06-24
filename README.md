@@ -2,6 +2,7 @@
 In this project, I developed an Arduino-based motor control system that uses CAN bus communication and Serial communication to enable real-time control and monitoring of motor operations. The system reads speed and direction data from the GUI. It transmits the controls with serial communication to adjust the motor's behavior and display vital information such as RPM and voltage. The system can then use CAN bus communication to transmit the motor controls to another Arduino motor system, allowing simultaneous control and creating an integrated ecosystem for efficient motor management.
 
 
+## Images:
 
 ![Capture](https://github.com/Fawazie/Embedded-Systems-W-Arduino/assets/78445573/e3c2440a-fe1d-4655-a8d2-b6908e6f83f4)
 
