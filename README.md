@@ -1,5 +1,6 @@
 # Embedded Systems Project With Arduino
 This project allowed me to get hands-on experience with coding for Arduino while also allowing me to implement Serial Communication, CANBUS communication, & debugging and grow my C coding expertise.
+![Capture](https://github.com/Fawazie/Embedded-Systems-W-Arduino/assets/78445573/e3c2440a-fe1d-4655-a8d2-b6908e6f83f4)
 
 ![IMG_1423](https://github.com/Fawazie/Embedded-Systems-W-Arduino/assets/78445573/f1e8d3f3-aa83-4472-8df7-345adb01170e)
 
