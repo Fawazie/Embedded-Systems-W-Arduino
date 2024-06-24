@@ -9,7 +9,7 @@ This project allowed me to get hands-on experience with coding for Arduino while
 
 **Tech used:** C, Processing, CANSniff, CANape
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+The project involves developing an embedded system to control and monitor a motor using Serial Communication then through the use of CAN bus Communication is able to relay the motor controls to another identical motor system. The system reads speed and direction data from the GUI(Graphic User Interface) and adjusts the motor's operation accordingly. The code utilizes the MCP_CAN library to interface with the CAN bus, processing incoming messages to control the second motor's speed and direction. Additionally, the system includes functionality to monitor motor parameters such as RPM and voltage, and it can send this data back over the CAN bus for real-time monitoring and control.
 
 ## Optimizations
 *(optional)*
