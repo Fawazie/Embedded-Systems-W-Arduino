@@ -29,6 +29,6 @@ To optimize the system, various enhancements were made, particularly involving h
 
 ![IMG_1393](https://github.com/Fawazie/Embedded-Systems-W-Arduino/assets/78445573/16676e60-12ed-4d29-8429-580d0e36148e)
 
-![IMG_1398](https://github.com/Fawazie/Embedded-Systems-W-Arduino/assets/78445573/60fa247b-7c80-46aa-9d0c-6867a75f407a)
+![IMG_1404](https://github.com/Fawazie/Embedded-Systems-W-Arduino/assets/78445573/c0051d6f-00fa-4e6e-85ea-9d886f558cef)
 
-![Uploading IMG_1404.jpeg…]()
+![IMG_1397](https://github.com/Fawazie/Embedded-Systems-W-Arduino/assets/78445573/287a97f9-e455-4c08-8eff-567854a6ff6f)
